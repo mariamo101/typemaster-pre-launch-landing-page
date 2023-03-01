@@ -1,23 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap");
 html {
     box-sizing: border-box;
- 
   }
 body {
-    font-family: "Barlow", sans-serif;
+    font-family: "Barlow" ,sans-serif;
     background-color: white;
     overflow-x: hidden;
     margin: 0;
 }
 header{
     width: 100%;
+    margin-left: 12vw;
 }
+header h1{
+    width: 163.500vw;
+    margin-top: 32vw;
+    color:  #162542;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+
+}
+header p{
+    width: 150.5vw;
+    color: #7B8BAD;
+
+    
+}
+.keybordMob{
+    height: 165.500vw;
+    overflow: hidden;
+    width: 186vw;
+    border-radius: 10vw;
+    margin-left: 30vw;
+}
+.keybordMob img{
+    overflow: hidden;
+    width: 175.500vw;
+
+} 
 .keybordTablet,
-.keybordDesk{
+.keybordDesk,
+.gkTablet,
+.gkDesk,
+.graySquare1,
+.graySquare2{
     display: none;
 }
-.gkTablet,
-.gkDesk{
-    display: none;
+
+.logo{
+     margin:13.500vw 0 0 12vw;
+}
+button{
+    padding: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.orangeRect button:hover{
+    background: rgba(255, 155, 98, 1);
+}
+.grayRect button{
+    width: 75vw;
+    position: absolute;
+    top: 11.500vw;
+    left: 140vw;
+    background: #E8EFF2;
+}
+.grayRect p{
+    margin: 6vw 6vw 6vw 10vw;
+    color: #162542;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.orangeRect button{
+    margin-top: 16vw;
+    width: 75vw;
+    background: #F16718;
+}
+.orangeRect p{
+    width: 61vw;
+    margin: 6vw 6vw 6vw 10vw;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.release{
+    margin:  -25vw 0 30vw 93vw;
+}
+.release p{
+    width: 63.500vw;
+    color: #7B8BAD;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+
+}
+.phoneKey{
+    background-image: url(./starter-code/assets/mobile/image-phone-and-keyboard.jpg);
+    background-color: #F16718;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.9375rem;
+    margin-left: -5vw;
+    margin-top: 18vw;
+    width: 64.500vw;
+    height: 96.500vw;
+}
+.gkMob{
+    width: 120vw;
+    height: 96.500vw;
+    border-radius:10vw ;
+    margin: -96vw 0 16vw 89.5vw;
+}
+main h1{
+     width: 127.500vw;
+     margin-left:46vw;
+     text-align: center;
+     color: #162542;
+     font-size: 32px;
+     font-weight: 900;
+     line-height: 36px;
+     letter-spacing: 0px;
+     text-align: center;
+     
+}
+main p{
+    width: 163.500vw;
+    text-align: center;
+    margin-left:28vw ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color:#7B8BAD  
+}
+.tvbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f26818;
+    width: 4.0625rem;
+    height: 4.0625rem;
+    border-radius: 1rem;
+    margin-left: 95.5vw;
+}
+.blbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f26818;
+    width: 4.0625rem;
+    height: 4.0625rem;
+    border-radius: 1rem;
+    margin-left: 95.5vw;
+
+}
+.batterybox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f26818;
+    width: 4.0625rem;
+    height: 4.0625rem;
+    border-radius: 1rem;
+    margin-left: 95.5vw;
+}
+.lightbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f26818;
+    width: 4.0625rem;
+    height: 4.0625rem;
+    border-radius: 1rem;
+    margin-left: 95.5vw;
+}
+footer h1{
+    width: 127.500vw;
+     margin-left:46vw;
+     text-align: center;
+     color: #162542;
+     font-size: 32px;
+     font-weight: 900;
+     line-height: 36px;
+     letter-spacing: 0px;
+     text-align: center;
+}
+footer p{
+    width: 163.500vw;
+    text-align: center;
+    margin-left:28vw ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color:#7B8BAD  
+
+}
+.typemaster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 136vw;
+    height: 13vw;
+    color: #7B8BAD;
+    margin: 48vw 0 10vw 40.5vw;
+}
+.typemaster h6{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.typemaster p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+@media screen and (min-width:375px){
+    .logo{
+        height: 10.667vw;
+        width: 10.667vw;
+        margin: 7.200vw  0 0 6.400vw;   
+    }
+    .grayRect button {
+        padding: 0;
+        height: 12.800vw;
+        width: 40vw;
+        left: 53.333vw;
+        top:6.133vw ;
+    }
 }
 /*
 .phoneKey{ 
@@ -31,6 +264,5 @@ header{
     border-radius: 0.9375rem;
     margin-right: 1.5rem;
     margin-left: -1.375rem;
-}
-*/
+}*/
     
