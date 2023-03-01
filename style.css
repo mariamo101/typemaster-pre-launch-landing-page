@@ -4,17 +4,17 @@ body{
     margin: 0;
     overflow-x: hidden;
     width: 100%;
-}
+}/*
 .logo{
     position: absolute;
     height: 40px;
     width: 40px;
     margin-left: 170px;
     margin-top: 70px;
-}
+}*/
 .logo img{
     width: 100%;
-}
+}/*
 .pre{
     position: absolute;
     height: 58px;
@@ -22,8 +22,8 @@ body{
     border-radius: 8px;
     background: #E8EFF2;
     margin: 55px 165px 83px 1100px;
-}
-.pre p{
+}*/
+.grayRect p{
     margin: 16px 27px 16px 26px;
     color: #162542;
     font-size: 16px;
@@ -35,12 +35,18 @@ body{
 header{
     width: 100%;
 }
-.grayRect{
+/*
+.graySquare1{
     width: 135px;
     position: absolute;
     margin: 196px -120px 0 1305px;
     overflow: hidden;   
+}*/
+.keybordTablet,
+.keybordDesk{
+    display: none;
 }
+/*
 .keybordDesk {
     height: 480px;
     width: 540px;
@@ -54,10 +60,12 @@ header{
     border-radius: 20px;
     margin-top: 196px;
     margin-left: 735px; 
+}*/
+.pkTablet,
+.pkDesk{
+    display: none;
 }
-/*
-.grayRect img{
-    height: 240px;
-    width: 135px;
+.gkTablet,
+.gkDesk{
+    display: none;
 }
-*/
