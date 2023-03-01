@@ -1,71 +1,36 @@
-
-body{
+html {
+    box-sizing: border-box;
+ 
+  }
+body {
     font-family: "Barlow", sans-serif;
-    margin: 0;
+    background-color: white;
     overflow-x: hidden;
-    width: 100%;
-}/*
-.logo{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    margin-left: 170px;
-    margin-top: 70px;
-}*/
-.logo img{
-    width: 100%;
-}/*
-.pre{
-    position: absolute;
-    height: 58px;
-    width: 175px;
-    border-radius: 8px;
-    background: #E8EFF2;
-    margin: 55px 165px 83px 1100px;
-}*/
-.grayRect p{
-    margin: 16px 27px 16px 26px;
-    color: #162542;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
+    margin: 0;
 }
 header{
     width: 100%;
 }
-/*
-.graySquare1{
-    width: 135px;
-    position: absolute;
-    margin: 196px -120px 0 1305px;
-    overflow: hidden;   
-}*/
 .keybordTablet,
 .keybordDesk{
-    display: none;
-}
-/*
-.keybordDesk {
-    height: 480px;
-    width: 540px;
-    border-radius: 20px;
-    margin-top: 196px;
-    margin-left: 735px; 
-}
-.keybordDesk img{
-    height: 480px;
-    width: 540px;
-    border-radius: 20px;
-    margin-top: 196px;
-    margin-left: 735px; 
-}*/
-.pkTablet,
-.pkDesk{
     display: none;
 }
 .gkTablet,
 .gkDesk{
     display: none;
 }
+/*
+.phoneKey{ 
+    background-image: url(./starter-code/assets/mobile/image-phone-and-keyboard.jpg);
+    background-color: #F16718;
+    background-blend-mode: multiply;
+    width: 27vw;
+    height: 41vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.9375rem;
+    margin-right: 1.5rem;
+    margin-left: -1.375rem;
+}
+*/
+    
