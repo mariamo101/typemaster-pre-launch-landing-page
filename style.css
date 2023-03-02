@@ -6,263 +6,259 @@ body {
     font-family: "Barlow" ,sans-serif;
     background-color: white;
     overflow-x: hidden;
-    margin: 0;
 }
-header{
-    width: 100%;
-    margin-left: 12vw;
+body, h1, h6, p {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-transform: uppercase;
+    color:  #162542;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    
 }
 header h1{
-    width: 163.500vw;
-    margin-top: 32vw;
-    color:  #162542;
     font-size: 48px;
-    font-weight: 900;
     line-height: 48px;
-    letter-spacing: 0px;
     text-align: left;
-    
-
 }
-header p{
-    width: 150.5vw;
-    color: #7B8BAD;
-
-    
-}
-.keybordMob{
-    height: 165.500vw;
-    overflow: hidden;
-    width: 186vw;
-    border-radius: 10vw;
-    margin-left: 30vw;
-}
-.keybordMob img{
-    overflow: hidden;
-    width: 175.500vw;
+ img{
+    max-width: 100%;
+    height: auto;
 
 } 
-.keybordTablet,
-.keybordDesk,
-.gkTablet,
-.gkDesk,
+.grayRect button{
+    background-color: #e8eff2;
+    color: #162441;
+}
+.orangeRect button{
+    background: #F16718;
+    color: white;
+}
+.grayRect button:hover{
+    background-color: #162441;
+    color: white;
+}
+.orangeRect button:hover{
+    background-color: #FF9B62;
+}
+.grayRect button, .orangeRect button{
+    align-self: center;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    font-style: normal;
+    border-radius: 8px;
+}
+.orangeRect button, .grayRect p{
+    padding: 11px 14px 11px 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left; 
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 993px;
+    margin: 55px auto 83px auto;
+}
 .graySquare1,
 .graySquare2{
     display: none;
 }
-
-.logo{
-     margin:13.500vw 0 0 12vw;
-}
-button{
-    padding: 0;
-    border-radius: 8px;
-    cursor: pointer;
-    border: none;
-}
-.orangeRect button:hover{
-    background: rgba(255, 155, 98, 1);
-}
-.grayRect button{
-    width: 75vw;
-    position: absolute;
-    top: 11.500vw;
-    left: 140vw;
-    background: #E8EFF2;
-}
-.grayRect p{
-    margin: 6vw 6vw 6vw 10vw;
-    color: #162542;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
-    
-}
-.orangeRect button{
-    margin-top: 16vw;
-    width: 75vw;
-    background: #F16718;
-}
-.orangeRect p{
-    width: 61vw;
-    margin: 6vw 6vw 6vw 10vw;
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
-    
-}
-.release{
-    margin:  -25vw 0 30vw 93vw;
-}
-.release p{
-    width: 63.500vw;
-    color: #7B8BAD;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
-    
-
-}
-.phoneKey{
-    background-image: url(./starter-code/assets/mobile/image-phone-and-keyboard.jpg);
-    background-color: #F16718;
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.9375rem;
-    margin-left: -5vw;
-    margin-top: 18vw;
-    width: 64.500vw;
-    height: 96.500vw;
-}
-.gkMob{
-    width: 120vw;
-    height: 96.500vw;
-    border-radius:10vw ;
-    margin: -96vw 0 16vw 89.5vw;
-}
-main h1{
-     width: 127.500vw;
-     margin-left:46vw;
-     text-align: center;
-     color: #162542;
-     font-size: 32px;
-     font-weight: 900;
-     line-height: 36px;
-     letter-spacing: 0px;
-     text-align: center;
-     
-}
-main p{
-    width: 163.500vw;
-    text-align: center;
-    margin-left:28vw ;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color:#7B8BAD  
-}
-.tvbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f26818;
-    width: 4.0625rem;
-    height: 4.0625rem;
-    border-radius: 1rem;
-    margin-left: 95.5vw;
-}
-.blbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f26818;
-    width: 4.0625rem;
-    height: 4.0625rem;
-    border-radius: 1rem;
-    margin-left: 95.5vw;
-
-}
-.batterybox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f26818;
-    width: 4.0625rem;
-    height: 4.0625rem;
-    border-radius: 1rem;
-    margin-left: 95.5vw;
-}
-.lightbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f26818;
-    width: 4.0625rem;
-    height: 4.0625rem;
-    border-radius: 1rem;
-    margin-left: 95.5vw;
-}
-footer h1{
-    width: 127.500vw;
-     margin-left:46vw;
-     text-align: center;
-     color: #162542;
-     font-size: 32px;
-     font-weight: 900;
-     line-height: 36px;
-     letter-spacing: 0px;
-     text-align: center;
-}
-footer p{
-    width: 163.500vw;
-    text-align: center;
-    margin-left:28vw ;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0px;
-    color:#7B8BAD  
-
-}
-.typemaster {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 136vw;
-    height: 13vw;
-    color: #7B8BAD;
-    margin: 48vw 0 10vw 40.5vw;
-}
-.typemaster h6{
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
-    
-}
-.typemaster p{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
-}
-@media screen and (min-width:375px){
-    .logo{
-        height: 10.667vw;
-        width: 10.667vw;
-        margin: 7.200vw  0 0 6.400vw;   
+@media screen and (max-width: 375px) {
+    .top{
+        justify-content: space-between;
+        max-width: 87.067vw;
+        margin: 6.133vw auto 17.067vw auto;
     }
-    .grayRect button {
-        padding: 0;
-        height: 12.800vw;
-        width: 40vw;
-        left: 53.333vw;
-        top:6.133vw ;
+    .orangeRect p, .grayRect p{
+        height: 6.933vw;
+        
+        padding:2.933vw 3.733vw 2.933vw 3.733vw ;
+        font-size: 4.267vw;   
+    }
+    
+    header{
+        display: flex;
+        max-width: 87.2vw;
+        flex-direction: column;
+        margin: 0 auto 0 auto;
+    }
+    section {
+        margin: 0 24px 0 24px;
+    }
+    header h1{
+        margin-bottom:  8.533vw;
+        height: 25.600vw;
+        width: 87.200vw;
+    }
+    header p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 8.533vw;
+        height: 20.800vw;
+        width: 87.200vw;
+        color: #7B8BAD;
+    }
+    .release {
+        display: flex;
+        align-items: center;
+        width: 33.867vw;
+        height:6.933vw ;
+        margin-left: 48.553vw;
+
+    }
+    .orangeRect, .release{
+        max-width:82.400vw ;
+    }
+    .images{
+        background-image: url(./starter-code/assets/mobile/image-keyboard.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        margin-top:10.147vw;
+        position: relative;
+        height: 88.267vw;
+        width:93.600vw;
+        border-radius: 5.333vw;
+        border-bottom-right-radius: inherit;
+        border-top-right-radius: inherit;
+        
+    }
+    main{
+         max-width: 98vw;
+         margin: 0 auto 0 auto;
+    }
+    .phoneKey{
+        display: flex;
+        margin: 4.800vw 0 20vw 0;
+    }
+    .orangeImg{
+        background-image: url(./starter-code/assets/mobile/image-phone-and-keyboard.jpg);
+        background-size: cover;
+        background-color: #F16718;
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        border-radius: 5.333vw;
+        border-bottom-left-radius: inherit;
+        border-top-left-radius: inherit;
+        width: 38.400vw;
+        height:51.467vw ;
+        margin: 0 4.933vw 0 -5.867vw;
+    }
+    .glassKey{
+         background-image: url(./starter-code/assets/mobile/image-glass-and-keyboard.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         border-radius: 5.333vw;
+         height: 51.467vw;
+         width: 58.667vw;
+
+
+         
+    }
+    main h1{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        letter-spacing: 0px;
+
+        height: 28.800vw;
+        width: 68vw;
+        text-align: center;
+        margin: 0 16vw 6.400vw 16vw; 
+    }
+    main p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+    
+         text-align: center;
+         height: 27.733vw;
+         width: 87.200vw;
+         color: #7B8BAD;
+         margin-left: 6.400vw ;
+         
+         
+    }
+    footer{
+        width: 87.200vw;
+        margin:29.600vw auto 0 auto;
+    }
+    footer h1{
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        letter-spacing: 0px;
+        text-align: center;
+        
+        height: 14.933vw;
+        width: 87.200vw;
+        margin:12.800vw 0  6.400vw 0;
+    }
+    footer p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+        
+        color: #7B8BAD;
+        height: 27.733vw;
+        width: 87.200vw;
+        margin: 6.400vw 0 17.067vw 0;
+    }
+    .compatible,
+    .bluetooth,
+    .battery,
+    .light{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    } 
+    .tvbox, 
+    .blbox,
+    .batterybox, 
+    .lightbox{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f26818;
+        height:17.333vw;
+        width: 17.333vw;
+        border-radius: 4.267vw;
+       
+    }
+    .typemaster{
+        margin: 0 0 13.3vw 0;
+        text-align: center;
+        color: #7B8BAD;
+    }
+    span{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        
     }
 }
-/*
-.phoneKey{ 
-    background-image: url(./starter-code/assets/mobile/image-phone-and-keyboard.jpg);
-    background-color: #F16718;
-    background-blend-mode: multiply;
-    width: 27vw;
-    height: 41vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.9375rem;
-    margin-right: 1.5rem;
-    margin-left: -1.375rem;
-}*/
+@media screen and (min-width: 375px) and (max-width:768px) {
     
+}
+@media screen and (min-width:768px) and (max-width:1440px) {
+    
+}
