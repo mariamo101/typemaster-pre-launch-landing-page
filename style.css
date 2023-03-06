@@ -1,264 +1,186 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: white;
+}
 html {
     box-sizing: border-box;
   }
-body {
-    font-family: "Barlow" ,sans-serif;
-    background-color: white;
-    overflow-x: hidden;
-}
-body, h1, h6, p {
+body, h1, h2, h3, h4, h5, h6, p{
     margin: 0;
     padding: 0;
 }
-h1{
-    text-transform: uppercase;
-    color:  #162542;
-    font-size: 32px;
-    font-weight: 900;
-    line-height: 36px;
-    letter-spacing: 0px;
-    text-align: center;
-    
-}
-header h1{
-    font-size: 48px;
-    line-height: 48px;
-    text-align: left;
-}
- img{
+img {
     max-width: 100%;
     height: auto;
+  }
+ .top {
+    display: flex;
+    justify-content: space-around;
+    max-width: 21.875rem;
+    text-align: center;
+    margin: 1.4375rem auto 4rem auto;
+}
+.logo{
+      align-self: center;
+}
+.grayRect{
+  background-color: #e8eff2;
+  color: #162441;
+  margin-left: 8.5rem;
+}
+.grayRect:hover{
+  background-color: #162441;
+  color: white;
+}
+.orangeRect{
+  background-color: #F16718;
+  color: white;
+}
+.orangeRect:hover{
+  background-color: #FF9B62;
+  color:white;
 
-} 
-.grayRect button{
-    background-color: #e8eff2;
-    color: #162441;
 }
-.orangeRect button{
-    background: #F16718;
-    color: white;
-}
-.grayRect button:hover{
-    background-color: #162441;
-    color: white;
-}
-.orangeRect button:hover{
-    background-color: #FF9B62;
-}
-.grayRect button, .orangeRect button{
+.grayRect, .orangeRect{
     align-self: center;
     cursor: pointer;
     border: none;
-    text-transform: uppercase;
+    border-radius: 0.5rem;
+    line-height: 1.625rem;
     font-style: normal;
-    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 10.9375rem;
+    height: 3.625rem;
+    padding: 1.625rem 1rem;
 }
-.orangeRect button, .grayRect p{
-    padding: 11px 14px 11px 14px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left; 
+.grayRect, .orangeRect{
+    width: 9.4375rem;
+    height: 3rem;
+    padding: 0.6875rem 0.8438rem;
 }
-.top{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    max-width: 993px;
-    margin: 55px auto 83px auto;
+.childCont{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+  max-width: 25rem;
 }
-.graySquare1,
-.graySquare2{
-    display: none;
+.intro{
+  margin: 0 24px 0 24px;
 }
-@media screen and (max-width: 375px) {
-    .top{
-        justify-content: space-between;
-        max-width: 87.067vw;
-        margin: 6.133vw auto 17.067vw auto;
-    }
-    .orangeRect p, .grayRect p{
-        height: 6.933vw;
-        
-        padding:2.933vw 3.733vw 2.933vw 3.733vw ;
-        font-size: 4.267vw;   
-    }
-    
-    header{
-        display: flex;
-        max-width: 87.2vw;
-        flex-direction: column;
-        margin: 0 auto 0 auto;
-    }
-    section {
-        margin: 0 24px 0 24px;
-    }
-    header h1{
-        margin-bottom:  8.533vw;
-        height: 25.600vw;
-        width: 87.200vw;
-    }
-    header p{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 26px;
-        letter-spacing: 0px;
-        text-align: left;
-        margin-bottom: 8.533vw;
-        height: 20.800vw;
-        width: 87.200vw;
-        color: #7B8BAD;
-    }
-    .release {
-        display: flex;
-        align-items: center;
-        width: 33.867vw;
-        height:6.933vw ;
-        margin-left: 48.553vw;
+.intro h1{
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 3rem;
+  color: #162441;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0 0 2rem 0;
+}
+.introP{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #7b8bad;
+  margin: 0 0rem 2rem 0rem;
+}
+.introFooter{
+  display: flex;
+  min-width: 19.375rem;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 2.5625rem 4rem 0rem;
+}
+.introFooter p{
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  color: #7b8bad;
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+.childContImage{
+  background-image: url(./starter-code/assets/mobile/image-keyboard.jpg);
+  width: 23.25rem;
+  height: 20.6875rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.9375rem;
+  position: relative;
+  right: -1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom-right-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.childCont2{
+  max-width: 25rem;
+  margin: 0 auto 0 auto;
+}
+.text h2{
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+  margin: 0 3.75rem 1.5rem 3.75rem;
+  color: #162441;
+}
+.text p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #7b8bad;
+  text-align: center;
+  margin: 0 1.5rem 6.9375rem 1.5rem;
+}
+.childCont3{
+  max-width: 25rem;
+  margin: 0 auto 0 auto;
+}
+.textIcons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 1.5rem;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f26818;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  border-radius: 1rem;
 
-    }
-    .orangeRect, .release{
-        max-width:82.400vw ;
-    }
-    .images{
-        background-image: url(./starter-code/assets/mobile/image-keyboard.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow-x: hidden;
-        margin-top:10.147vw;
-        position: relative;
-        height: 88.267vw;
-        width:93.600vw;
-        border-radius: 5.333vw;
-        border-bottom-right-radius: inherit;
-        border-top-right-radius: inherit;
-        
-    }
-    main{
-         max-width: 98vw;
-         margin: 0 auto 0 auto;
-    }
-    .phoneKey{
-        display: flex;
-        margin: 4.800vw 0 20vw 0;
-    }
-    .orangeImg{
-        background-image: url(./starter-code/assets/mobile/image-phone-and-keyboard.jpg);
-        background-size: cover;
-        background-color: #F16718;
-        background-blend-mode: multiply;
-        background-repeat: no-repeat;
-        border-radius: 5.333vw;
-        border-bottom-left-radius: inherit;
-        border-top-left-radius: inherit;
-        width: 38.400vw;
-        height:51.467vw ;
-        margin: 0 4.933vw 0 -5.867vw;
-    }
-    .glassKey{
-         background-image: url(./starter-code/assets/mobile/image-glass-and-keyboard.jpg);
-         background-size: cover;
-         background-repeat: no-repeat;
-         border-radius: 5.333vw;
-         height: 51.467vw;
-         width: 58.667vw;
-
-
-         
-    }
-    main h1{
-        font-size: 32px;
-        font-weight: 900;
-        line-height: 36px;
-        letter-spacing: 0px;
-
-        height: 28.800vw;
-        width: 68vw;
-        text-align: center;
-        margin: 0 16vw 6.400vw 16vw; 
-    }
-    main p{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 26px;
-        letter-spacing: 0px;
-    
-         text-align: center;
-         height: 27.733vw;
-         width: 87.200vw;
-         color: #7B8BAD;
-         margin-left: 6.400vw ;
-         
-         
-    }
-    footer{
-        width: 87.200vw;
-        margin:29.600vw auto 0 auto;
-    }
-    footer h1{
-        font-size: 32px;
-        font-weight: 900;
-        line-height: 36px;
-        letter-spacing: 0px;
-        text-align: center;
-        
-        height: 14.933vw;
-        width: 87.200vw;
-        margin:12.800vw 0  6.400vw 0;
-    }
-    footer p{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 26px;
-        letter-spacing: 0px;
-        text-align: center;
-        
-        color: #7B8BAD;
-        height: 27.733vw;
-        width: 87.200vw;
-        margin: 6.400vw 0 17.067vw 0;
-    }
-    .compatible,
-    .bluetooth,
-    .battery,
-    .light{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    } 
-    .tvbox, 
-    .blbox,
-    .batterybox, 
-    .lightbox{  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #f26818;
-        height:17.333vw;
-        width: 17.333vw;
-        border-radius: 4.267vw;
-       
-    }
-    .typemaster{
-        margin: 0 0 13.3vw 0;
-        text-align: center;
-        color: #7B8BAD;
-    }
-    span{
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 26px;
-        letter-spacing: 0px;
-        text-align: left;
-        
-    }
 }
-@media screen and (min-width: 375px) and (max-width:768px) {
-    
+.textIcons h3{
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+  color: #162441;
+  margin: 3rem 3.4375rem 1.5rem 3.4375rem;
 }
-@media screen and (min-width:768px) and (max-width:1440px) {
-    
+.textIcons p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #7b8bad;
+  margin: 0 0 4rem 0;
+}
+footer {
+  max-width: 23.4375rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  color: #7b8bad;
+  line-height: 1.625rem;
+  text-align: center;
+  margin: 2rem auto 3.125rem auto;
+}
+.footer span {
+  font-weight: 500;
 }
