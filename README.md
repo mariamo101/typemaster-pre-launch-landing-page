@@ -32,8 +32,8 @@ I can't single things out because the whole project was a challenge for me
 
 ### Links
 
-- Solution URL: (https://github.com/mariamo101/typemaster-pre-launch-landing-page)
-- Live Site URL:(https://remarkable-pegasus-4f05b7.netlify.app)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X)
+- Live Site URL: [Add live site URL here](https://typemaster-pre-launch-landing-page-mm.netlify.app/)
 
 ## My process
  
